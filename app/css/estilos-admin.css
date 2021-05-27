@@ -1,0 +1,286 @@
+/*fuentes*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Estilos General*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'yanone kaffeesatz', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../../img/fondo.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/*Clases Especiales*/
+
+.borde {
+    border: 1px solid gray;
+}
+
+.titulo {
+    width: 100%;
+    padding: 70px 10px 10px 10px;
+    background: #DAD1CE;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.titulo-portafolio {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    background: rgba(0, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.alenear-arr {
+    vertical-align: top;
+}
+
+
+/*Contenedor*/
+
+.contenedor {
+    width: 95%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/*Navegador*/
+
+nav {
+    width: 95%;
+    max-width: 1280px;
+    height: 55px;
+    background-color: rgba(5, 249, 249, 0.92);
+    position: fixed;
+    margin-top: -50px;
+}
+
+
+/* Nivel 0 */
+
+nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li {
+    width: 150px;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav .navega>ul>li {
+    display: inline-block;
+}
+
+nav .ingreso ul li {
+    display: inline-block;
+    width: 100%;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding: 12px 5px;
+    border-bottom: 2px solid rgb(61, 173, 242, 0.8);
+}
+
+nav ul li a:hover {
+    background: white;
+    border-bottom: 2px solid black;
+}
+
+
+/* Nivel 1 */
+
+nav li ul {
+    position: absolute;
+    display: none;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+nav .ingreso li ul {
+    width: 15%;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+
+/* Nivel 2 */
+
+nav li ul li ul {
+    left: 130px;
+    top: 2px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    padding: 3px;
+    background: white;
+    float: left;
+    text-align: center;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    background: rgb(61, 173, 242, 0.1);
+}
+
+.navega {
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding-right: 3px;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+.ingreso {
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: white;
+    color: white;
+}
+
+.ingreso ul li {
+    color: white;
+}
+
+.button-ingresar {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.button-ingresar:hover {
+    border: none;
+    background-color: black;
+    color: #00FFFF;
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+/* Encabezado*/
+
+header {
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.head-opc {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    color: #ddd;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.head-opc h1 {
+    font-size: 5em;
+}
+
+.head-opc h2 {
+    font-size: 2.5em;
+}
+
+
+/* Encabezado 
+
+.col-enca {
+    width: 23.6%;
+    height: 116%;
+    padding: 13px;
+    margin-left: 74px;
+    text-align: center;
+    float: left;
+    background: #0cc5cef0;
+}
+
+.col-top-enca {
+    padding: 7px;
+    margin-top: 40px;
+    color: black;
+    text-align: right;
+    float: left;
+}
+
+.col-top-enca img {
+    position: left;
+    margin-left: -3.5px;
+    margin-top: 18px;
+}
+
+.col-cnt-enca {
+    width: 100%;
+    padding: 7px;
+    color: black;
+    text-align: left;
+    border: none;
+    float: left;
+}
+
+.col-cnts-enca {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    color: #ddd;
+    text-align: left;
+    float: left;
+}
+
+.col-down-enca {
+    width: 100%;
+    padding: 7px;
+    color: #ddd;
+    text-align: left;
+    border: none;
+    float: left;
+}
+
+.col-encab {
+    width: 68.2%;
+    height: 116%;
+    padding: 30px;
+    float: left;
+    background: white;
+    border: 3px solid black;
+}
+
+div ul li a {
+    color: white;
+    font-size: 1.7em;
+}*/

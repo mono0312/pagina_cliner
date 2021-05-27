@@ -1,0 +1,72 @@
+/* Fuentes */
+@import url('htttps://fonts.googleapis.com/');
+
+/* Estilos Generales */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	width: 95%;
+	height: 100vh;
+	max-width: 1280px;
+	margin: auto;
+	font-family: 'Roboto Condensed';
+}
+.cuerpo-pag{
+	padding-top: 170px;
+}
+
+/* Clases Generales */ 
+.borde{
+	border: 1px solid gray;
+}
+.fija{
+	position: fixed;
+	width: 95%;
+	padding: 20px 0 0 0;
+	background: #fff;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+/* Migas de Pan */
+.migas-pan{
+	width: 100%;
+	padding: 10px;
+	background: #f2f2f2;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+}
+ /* Titulo */
+ .titulo{
+ 	width: 50%;
+ 	padding: 20px 0;
+ 	float: left;
+ }
+
+ /* Controles */
+ .controles{
+ 	width: 50%;
+ 	text-align: right;
+ 	padding: 20px;
+ 	float: left;
+ }
+ .controles a{
+ 	display: inline-block;
+ 	width: 120px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	border-radius: 5px;
+ }
+ .controles #crear-usuario:hover, .controles{
+ 	background: rgba(248, 124, 53, 0.9);
+ }
+ .controles #crear-usuario{
+ 	background: #2B9EA5;
+ }
+ .controles #imprimir{
+ 	background: #666;
+ }

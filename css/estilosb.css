@@ -1,0 +1,351 @@
+/*Fuentes*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Estilos General*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'yanone kaffeesatz', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/* clases especiales */
+
+.borde {
+    border: 1px solid gray;
+}
+
+.titulo {
+    width: 100%;
+    padding: 70px 10px 10px 10px;
+    background: #DAD1CE;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.titulo-portafolio {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    background: rgba(0, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.alenear-arr {
+    vertical-align: top;
+}
+
+
+/*Contenedor*/
+
+.contenedor {
+    width: 95%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/* Navegador */
+
+nav {
+    width: 95%;
+    max-width: 1280px;
+    height: 55px;
+    background-color: rgba(5, 249, 249, 0.92);
+    position: fixed;
+    margin-top: -50px;
+}
+
+
+/* Nivel 0 */
+
+nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li {
+    width: 150px;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav .navega>ul>li {
+    display: inline-block;
+}
+
+nav .ingreso ul li {
+    display: inline-block;
+    width: 100%;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding: 12px 5px;
+    border-bottom: 2px solid rgb(61, 173, 242, 0.8);
+}
+
+nav ul li a:hover {
+    background: #fff;
+    border-bottom: 2px solid black;
+}
+
+
+/* Nivel 1 */
+
+nav li ul {
+    position: absolute;
+    display: none;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+nav .ingreso li ul {
+    width: 15%;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+
+/* Nivel 2 */
+
+nav li ul li ul {
+    left: 130px;
+    top: 2px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    padding: 3px;
+    background: white;
+    float: left;
+    text-align: center;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    background: rgb(61, 173, 242, 0.1);
+}
+
+.navega {
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding-right: 3px;
+    background: rgb(5, 249, 249, 0.92);
+}
+
+.ingreso {
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: white;
+    color: white;
+}
+
+.ingreso ul li {
+    color: white;
+}
+
+.button-ingresar {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.button-ingresar:hover {
+    border: none;
+    background-color: black;
+    color: #00FFFF;
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+/* Encabezado*/
+
+header {
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.head-opc {
+    width: 100%;
+    height: 108%;
+    padding-top: 5%;
+    color: #ddd;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.head-opc h1 {
+    font-size: 5em;
+}
+
+.head-opc h2 {
+    font-size: 2.5em;
+}
+
+
+/* Selecciones: Nosotros y contactenos */
+
+section {
+    width: 100%;
+    height: 700px;
+}
+
+
+/* Nosotros */
+
+.fila-nos {
+    width: 100%;
+    height: 24%;
+}
+
+.fila-nos p {
+    padding-top: 20px;
+}
+
+.col-izq-nos {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    color: #ddd;
+    text-align: right;
+    float: left;
+}
+
+.section-nosotros {
+    margin-top: 60px;
+    background: rgba( 0, 0, 0, 0.8);
+}
+
+.col-der-nos {
+    width: 40%;
+    height: 170%;
+    padding: 30px;
+    color: #ddd;
+    text-align: left;
+    float: left;
+}
+
+.col-cnt-nos {
+    width: 20%;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    float: left;
+}
+
+.col-cnt.nos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+/* Contactenos */
+
+.col-conts {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    padding: 30px 40px 40px 40px;
+}
+
+form label,
+form input,
+form textarea {
+    display: inline-block;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+form .form-enc {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.col-arr-conts {
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+
+.col-abj-conts {
+    width: 100%;
+    height: 70%;
+    background: rgba( 0, 0, 0, 0.8);
+}
+
+.fila-col-abj-cont-col {
+    float: right;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.fila-col-abj-cont {
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+.fila-col-abj-cont-img {
+    margin-top: 10px;
+    padding-left: 120px;
+}
+
+
+/* Pie de pagina */
+
+footer {
+    width: 100%;
+    height: 70px;
+}
+
+
+/* Modal Inicio Sesion*/
+
+.modal-dialog {
+    background: #00FFFF;
+}
